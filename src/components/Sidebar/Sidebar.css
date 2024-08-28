@@ -1,0 +1,137 @@
+
+/* ------------new general ---------- */
+.col-2 {
+    width: 13.666667%;
+}
+.col-10{
+    width: 86.333333%;
+}
+/* ------------end new general ---------- */
+/* ------------------------start side-nav --------------- */
+.two-nav{
+    height: 100%;
+}
+/* ---------toggel side nav ----------- */
+.secound-part.custom-width{
+    margin-left: 41px;
+    width: 97.666667%;
+}
+.my-offcanvas {
+    position: relative;
+    top: 0;
+    right: -250px; /* Adjust width as needed */
+    /* width: 250px; */
+    /* height: 100vh; */
+    /* background-color: #333; */
+    /* color: #fff; */
+    transition: left 0.3s;
+    z-index: 1000;
+    /* left: -213px; */
+    left: 0;
+    padding: 1rem;
+}
+.my-offcanvas.padding-toggel{
+    padding-right: 50px;
+}
+.my-offcanvas.hide{
+    left: -176px;
+    position: fixed;
+
+
+}
+.my-offcanvas.show {
+    left: 0;
+    /* left: -213px; */
+}
+
+.my-toggle-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    /* color: #fff; */
+    font-size: 20px;
+    cursor: pointer;
+}
+/* ---------end toogel side nav ----------- */
+
+
+.side-nav{
+    background: #FFFFFF;
+    border-right: 1px solid#1C1C1C1A;
+    
+    /* width: 212px; */
+    height: 100vh;
+}
+.dash-name{
+    margin-bottom: 36px;
+
+
+}
+.my-logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.my-logo h5{
+    color: #0D062D;
+        
+}
+.title{
+    color:#1C1C1C66;
+    
+}
+.overview{
+    gap: 12px;
+}
+.overview h5{
+    color: var(--project-black);
+    
+}
+.nav-list{
+    color:#374584;
+    gap: 16px;
+    
+}
+.myActive{
+    padding: 8px;
+    background: #374584;
+    border-radius: 8px;
+    color: var(--white);
+    
+}
+/* -----------------side nav ---------- */
+.course-grades-list ul{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-direction: column;
+}
+/* ----------start courses dropdown ----------  */
+.my-act{
+font-size: 14px;
+font-weight: 600;
+color: #374584;
+
+}
+.project-sub-group{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+.sub-courses-list{
+    /* margin-left: 32.5px; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-courses-list ul li {
+    width: 100%;
+}
+/* ----------end courses dropdown ----------  */
+
+/* ------------------------end side-nav --------------- */

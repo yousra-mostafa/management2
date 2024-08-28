@@ -1,0 +1,149 @@
+
+
+.mycontent{
+    margin: 8px 16px 0 8px;
+    padding-top: 24px;
+    border: 1px solid #E8E8E8;
+    background: #FFFFFF;
+    gap: 0px;
+    border-radius: 16px;
+}
+
+
+.projectsByName{
+    margin: 0 20px 0 16px;
+
+}
+.filed{
+    box-shadow: 4px 4px 20px 0px #0000000F;
+    border: 1px solid #EFF2F5;
+    background: #DFE3E9;
+    width: 200px;
+    height: 883px;
+    border-radius: 16px 16px 0px 0px;
+    
+}
+.projects-name{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.projects-name .offer{
+    color: #8EDF3B;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px 8px;
+
+    border: 1px solid #8EDF3B;
+    background: #FFFFFF;
+    border-radius: 16px;
+    
+        
+}
+.filed-title-cont{
+    padding: 12px 16px;
+}
+.green-hr{
+    border: 3px solid #8EE03B;
+    margin: 0px 16px 8px 16px;
+border-radius: 12px;
+
+}
+
+.all-courses{
+    margin: 0 4px;
+
+}
+
+.custom-card{
+    box-shadow: 4px 4px 20px 0px #0000000F;
+    border: 1px solid #EFF2F5;
+    background: #FFFFFF;
+   
+    border-radius: 8px;
+   
+    width: 192px;
+
+
+    
+}
+h5.card-title{
+    color: #374584;
+    font-size: 16px;
+    font-weight: 600;
+        
+}
+p.card-text, .hours{
+color: #878FB5;
+font-size: 14px;
+font-weight: 400;
+
+}
+.hours{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+.hr-card{
+    border: 1px solid #F7F8FA;
+    margin: 12px 0;
+   
+
+}
+.btn-color{
+padding: 8px 12px 8px 12px;
+
+color: #fff;
+
+border-radius: 6px;
+background: #374584;
+font-size: 12px;
+font-weight: 400;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: fit-content;
+gap: 4px;
+}
+
+
+
+
+.last-card{
+    padding: 10px 0;
+
+    box-shadow: 4px 4px 20px 0px #0000000F;
+    box-shadow: 4px 4px 20px 0px #0000000F;
+    border: 1px solid #EFF2F5;
+    background: #FFFFFF;
+border-radius: 8px;
+}
+
+
+
+
+.blue-hr{
+    border: 3px solid #3B7DE0;
+    margin: 0px 16px 8px 16px;
+    border-radius: 12px;
+}
+.purple-hr{
+    border: 3px solid #DD3BE0;
+    margin: 0px 16px 8px 16px;
+    border-radius: 12px;
+}
+.yellow-hr{
+    border: 3px solid #E0D93B;
+    margin: 0px 16px 8px 16px;
+    border-radius: 12px;
+
+}
+.aqua-hr{
+    border: 3px solid #3BE0D6;
+    margin: 0px 16px 8px 16px;
+    border-radius: 12px;
+
+}
+

@@ -1,0 +1,169 @@
+
+/* ------------------start mycontent section ---------------- */
+.mycontent {
+    margin: 8px 16px 0 8px;
+    border: 1px solid #E8E8E8;
+    /* background: #FFFFFF; */
+    gap: 0px;
+    border-radius: 16px;
+}
+
+
+/* ------------start search input ------------------------ */
+.lesson-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 520px;
+    padding: 9px 0px 9px 12px;
+    /* border: 1px solid #DFDFDF; */
+    border: 1px solid #E8E8E8;
+    background: #FFFFFF;
+    border-radius: 7px;
+    margin: 16px 0 38px 16px;
+
+
+    /* background: #FFFFFF; */
+}
+
+
+
+/* ------------end search input ------------------------ */
+
+/* -----------------------------------start table-------------------------- */
+.partName td {
+    background: #70C779;
+    border-width: 1px 0px 1px 0px;
+
+    border-style: solid;
+
+    border-color: #E8E8E8;
+
+}
+
+/* .partName{
+    border-width: 1px 0px 1px 0px;
+
+border-style: dashed;
+
+border-color: #E8E8E8;
+
+background: #70C779;
+
+}  */
+.number-cell {
+    background-color: #fff;
+}
+
+.table>:not(caption)>*>* {
+    color: #374584;
+    /* font-size: 14px;
+    font-weight: 600; */
+
+}
+
+.table>:not(caption)>*>*:first-child {
+    /* color: #374584; */
+    /* font-size: 14px;
+    font-weight: 600; */
+    background-color: #fff;
+
+}
+
+
+/* .lessons-logo{
+    padding: 0;
+} */
+th {
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* .table>:not(caption)>*>* td:not(:first-child){
+    border-bottom: none;
+} */
+td {
+    /* color: #1C1C1C; */
+    /* color: #374584; */
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 20px;
+    text-align: center; */
+
+}
+
+td.Done {
+    background-color: #70C779;
+
+}
+
+td.stuck {
+    background: #C4465C;
+}
+
+td.status {
+    border-width: 1px;
+
+    border-style: solid;
+
+    border-color: #E8E8E8;
+
+    width: 132px;
+
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    /* padding: 12px 49px; */
+
+
+}
+
+/* td.due-time{
+display: flex;
+align-items: center;
+gap: 8px;
+color: #B0B0B0;
+
+} */
+.table-length {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    padding: 16px 32px 21px 12px;
+    border-radius: 0 0 16px 16px;
+    margin-top: -15px;
+}
+
+p {
+    color: #BFBFBF;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.prev-next span {
+    background: #F7F9FB;
+    /* width: 34px;
+    height: 20px; */
+    border-radius: 4px;
+    color: #BFBFBF;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 4px 6px;
+    /* line-height: 12.1px;
+    text-align: center; */
+
+}
+
+span.prev-next-active {
+    color: #FFFFFF;
+    background: #374584;
+
+}
+
+
+/* -----------------------------------end table-------------------------- */

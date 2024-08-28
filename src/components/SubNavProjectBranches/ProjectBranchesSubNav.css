@@ -1,0 +1,72 @@
+.mycontent .Subjects p{
+    color: #374584;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 14px;
+    padding-bottom: 15px;
+    
+}
+.Subjects p span{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+/* <!-- -------------start small nav for first and secound tearm------- --> */
+.nav2{
+    /* min-height: 94px; */
+    /* position: sticky; */
+    /* top: 0px; */
+    background-color: #fff;
+    /* z-index: 44444; */
+}
+.hr-nav2{
+    margin-bottom: 16px;
+    border: 1px solid #E8E8E8;
+}
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav2 ul{
+    height: 100%;
+    /* margin-bottom: -35px; */
+    width: 100%;
+    /* display: ; */
+    padding-left: 20px;
+
+
+}
+.nav2 ul li{
+    /* display: block; */
+    /* height: 60px; */
+    text-align: center;
+
+    /* width: 100; */
+    padding-bottom: 7px;
+    font-size: 16px;
+font-weight: 400;
+    /* padding: 10px; */
+    
+
+
+}
+.nav2 ul li a{
+    /* color: #374584; */
+color: #374584;
+
+}
+
+.nav2 ul li:hover{
+border-bottom: 3px solid #374584;
+font-weight: 500;
+padding-bottom: 0;
+}
+/* .nav2 ul li:hover a{
+
+} */
+.nav2 ul .customer{
+    
+    text-align: center;
+}
+/* -------------end small nav for first and secound tearm------- --> */

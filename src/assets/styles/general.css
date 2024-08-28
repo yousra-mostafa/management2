@@ -1,0 +1,30 @@
+/* custom and add class like bootstrap ----------- */
+.fs-70px{
+    font-size: 70px;
+
+}
+.fs-18px{
+    font-size: 18px;
+}
+.fs-14px{
+    font-size: 14px;
+
+}
+.mt-32px{
+    margin-top: 32px;
+
+}
+.mb-28px{
+    margin-bottom: 28px;
+}
+.ml-32px{
+margin-left: 32px;
+}
+.ms-28px{
+    margin-left: 28px;
+}
+.secound-part.custom-width{
+    margin-left: 41px;
+    width: 97.666667%;
+}
+/* ----------end general -------- */

@@ -1,0 +1,278 @@
+
+/* ------------------start mycontent section ---------------- */
+.mycontent {
+    margin: 8px 16px 0 8px;
+    border: 1px solid #E8E8E8;
+    /* background: #FFFFFF; */
+    gap: 0px;
+    border-radius: 16px;
+}
+
+/* ------------start search input ------------------------ */
+.lesson-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 520px;
+    padding: 9px 0px 9px 12px;
+    /* border: 1px solid #DFDFDF; */
+    border: 1px solid #E8E8E8;
+    background: #FFFFFF;
+    border-radius: 7px;
+    margin: 16px;
+
+
+    /* background: #FFFFFF; */
+}
+
+
+
+/* ------------end search input ------------------------ */
+/* <!-- ---------------start lessonsDetalsContainer------------- --> */
+.lessonsDetalsContainer {
+    background-color: #fff;
+    padding: 16px 0 33px 17px;
+    /* padding-top: 16px;
+    padding-left: 17px; */
+
+}
+
+.allChapters {
+    border: 1px solid #E8E8E8;
+    background: #FFFFFF;
+    /* width: 294px;
+    height: 677px; */
+    border-radius: 16px;
+
+}
+
+/* --------------start myVedio------------- */
+.myVedio {
+    border: 1px solid #E8E8E8;
+    background: #FFFFFF;
+    /* width: 893px;
+    height: 677px; */
+    border-radius: 16px;
+    padding: 0 45px 24px 45px;
+
+}
+
+.lessonsDetalsContainer h2,
+.lessonsDetalsContainer h3 {
+    color: #1C1C1C;
+    font-size: 14px;
+    font-weight: 600;
+    /* line-height: 16.94px; */
+
+}
+
+.lessonsDetalsContainer h2 {
+    margin: 8px 0 8px 16px;
+}
+
+.lessonsDetalsContainer h3 {
+    text-align: center;
+    margin: 8px 0;
+}
+
+/* ----------start chapter lessons-------  */
+.the-container {
+    padding: 0 16px 16px 6px;
+    /* padding-bottom: 16px; */
+    height: 70vh;
+
+
+}
+
+.my-hr {
+    /* width: 262px; */
+    border: 1px solid #E8E8E8;
+    margin-bottom: 8px;
+}
+
+.scroll {
+    /* width: 100%; */
+    /* background-color: #374584; */
+    /* height: 110px; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    direction: rtl;
+    /* height: 75vh; */
+    max-height: calc(70vh - 100px);
+
+    /* text-align: justify; */
+}
+
+/* For the entire scrollbar */
+::-webkit-scrollbar {
+    /* Width of the scrollbar */
+    width: 5px;
+    height: 46px;
+}
+
+/* ::-webkit-scrollbar {
+    width: 12px; 
+} */
+
+/* Track of the scrollbar */
+::-webkit-scrollbar-track {
+    /* Background color of the track */
+    /* background-color: #f1f1f1;  */
+    /* Rounded corners for the track */
+    /* border-radius: 10px;  */
+
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background-color: #70C779;
+    /* Background color of the handle */
+    border-radius: 10px;
+    /* Rounded corners for the handle */
+
+    /* border: 2px solid #70C779; */
+    /* width: 2px;
+    height: 46px; */
+
+
+
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+} */
+.chapters {
+    /* background-color: #374584; */
+    /* line-height: 20px;
+    text-align: center; */
+    margin: 0 16px 16px 10px;
+    direction: ltr;
+    /* border-width: 1px, 0px, 1px, 0px; */
+
+    border-style: solid;
+
+    border-color: #E8E8E8;
+
+    border-width: 1px;
+
+    /* width: 262px;
+height: 44px; */
+    border-radius: 8px 8px 0 0;
+
+}
+
+.ul-title {
+    background: #70C779;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    /* border-radius: 8px 8px 0 0; */
+    border-width: 0px 0px 1px 0px;
+
+    border-style: solid;
+
+    border-color: #E8E8E8;
+    padding: 12px 0 12px 16px;
+    /* width: 100%; */
+}
+/* .chapters ul>:not(:first-child){} */
+.chapters .main-chapters-ul li:first-child .ul-title{
+    border-radius: 8px 8px 0 0;
+
+    
+}
+.chapters .sub-list li{
+    border-width: 0 0 1px 0px;
+
+border-style: solid;
+
+border-color: #E8E8E8;
+padding: 9px 0 9px 17px;
+/* color: #110baf1a;
+background: #70C7791A; */
+
+/* opacity: 1; */
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: #374584;
+font-size: 14px;
+font-weight: 400;
+/* line-height: 20px;
+text-align: center; */
+
+}
+/* ------------start the vedio and comment-div ---------- */
+#video1{
+    width: 100%;
+
+    /* background: #C4C4C48C; */
+    /* width: 781px; */
+    /* height: calc(70vh - 0); */
+    /* height: 100vh; */
+    border-radius: 6px;
+    margin-bottom: 16px;
+
+}
+.comment-div{
+   
+    position: relative;
+}
+.comment-div #comment{
+    border: none;
+    width: 100%;
+    padding: 14.5px 0 0 16px;
+    background: #F9F9F9;
+    /* width: 781px; */
+    border-radius: 6px;
+
+/* color: #A0A7AF; */
+font-size: 12px;
+font-weight: 400;
+/* line-height: 14.52px;
+text-align: center; */
+
+
+}
+.plus{
+    position: absolute;
+    top: 13px;
+    left: 22px;
+}
+
+/* ------------end the vedio and comment-div ---------- */
+
+
+/* ----------end chapter lessons-------  */
+
+/* ---------start btns ----------------- */
+.my-btn{
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 16px;
+
+
+}
+#review{
+    border: 1px solid #C4465C;
+    background: #FFFFFF;
+    /* gap: 6px; */
+    color: #C4465C;
+}
+#done{
+    background: #70C779;
+    color: #FFFFFF;
+    
+}
+/* ---------end btns ----------------- */
+
+
+/* --------------end myVedio------------- */
+
+/* <!-- ---------------end lessonsDetalsContainer------------- --> */

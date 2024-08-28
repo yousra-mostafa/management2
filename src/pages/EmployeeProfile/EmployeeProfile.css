@@ -1,0 +1,283 @@
+.col-2 {
+    width: 13.666667%;
+}
+.col-10{
+    width: 86.333333%;
+}
+/* -----------------start the main content =>body -----------   */
+.main-content{
+    /* background: #FFFFFF; */
+    border: 1px solid #E8E8E8;
+    /* width: 1276px; */
+height: 100%;
+border-radius: 16px 16px 0 0;
+margin: 8px 16px 0 8px;
+/* padding-bottom: 24px; */
+background-color: var(--white);
+
+}
+
+.course-manage{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+border-radius: 16px 16px 0 0;
+/* padding: 16px; */
+gap: 8px;
+padding-bottom: 20px;
+
+
+}
+.course-manage h1{
+    /* color: #4B5DA6; */
+
+    color: var(--project-black);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    
+    
+    
+}
+.addCourse-btn{
+    padding: 7px 12px;
+    background: #374584;
+    border-radius: 8px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    
+    
+}
+
+/* -----------------end the main content =>body -----------   */
+/* ------------------------start teatcher profile in manager page --------------------- */
+/* ------------------------start teatcher profile  info in manager page --------------------- */
+
+.teacher-info{
+    border: 1px solid #E8E8E8;
+    /* width: 335px; */
+/* height: 800px; */
+border-radius: 16px;
+background: #FFFFFF;
+
+/* width: 335px;
+height: 800px;
+top: 158px;
+left: 236px;
+gap: 0px;
+border-radius: 16px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px; */
+
+
+}
+.all-coursess{
+    border: 1px solid #E8E8E8;
+    /* background: #FFFFFF; */
+    /* width: 893px; */
+    /* height: 800px; */
+    border-radius: 16px;
+
+}
+.the-courses{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.all-courses h5{
+    color: var(--project-black);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 21.78px;
+        
+}
+.custom-col-8{
+    width: 73%;
+}
+.tech-photo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.tech-active h3{
+    color: #191B1D;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+
+    
+}
+.green-active{
+    color: #0EC755;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    
+}
+.tech-active{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.tech-active h4{
+    color: #8A96AE;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.15000000596046448px;
+    
+}
+.edit-info{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+.hourss{
+padding: 7px 16px 8px 15px;
+border-radius: 6px;
+background: #374584;
+
+}
+.hours p {
+    color: #FFFFFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+
+}
+.hours p span{
+font-size: 6px;
+font-weight: 400;
+line-height: 7.26px;
+text-align: left;
+
+}
+.course-info{
+    display: flex;
+    gap: 40px;
+}
+.course-info .question, .course-info .answer{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+    
+}
+.course-info .answer li:last-child{
+    margin-top: 15px;
+}
+.course-info .question{
+    color: #A0A7AF;
+
+}
+.course-info .answer{
+    color: #191B1D;
+    
+}
+.info-hr{
+    margin: 24px 0;
+    /* border: 1px solid #EFF3F5; */
+    border: 1px solid#1C1C1C1A;
+
+}
+.basic-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.basic-info-title{
+    display: flex;
+    align-items: center;
+}
+.toggel-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.title-info-ul, .my-info-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.41px;
+margin-top: 16px;
+
+}
+.title-info-ul{
+    color: #A0A7AF;
+
+}
+.my-info-ul{
+    color: #191B1D;
+
+}
+/* ------------------------end teatcher profile  info in manager page --------------------- */
+/* ------------------------start teatcher all courses in manager page --------------------- */
+.putImage-course{
+    width: 60px;
+    height: 60px;
+    background: var(--white);
+}
+.course{
+    background: #F9F9FB;
+    width: 100%;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.my-course{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.course-name h4{
+    color: var(--project-black);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    
+}
+.course-name .duration{
+    color: #8A96AE;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    
+}
+.view-course-btn{
+    background: #374584;
+    padding: 12px 28px;
+    border-radius: 8px;
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    margin-left: 32px;
+    margin-right: 13px;
+    
+    
+}
+.course-rate{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+/* ------------------------end teatcher all courses in manager page --------------------- */
+
+/* ------------------------end teatcher profile in manager page --------------------- */
+
